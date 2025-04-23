@@ -998,7 +998,7 @@ a {
 /* start user */
 @media (max-width: 767px) {
     .profile-page {
-        grid-template-columns: minmax(100px, 1fr);
+        grid-template-columns: minmax(200px, 1fr);
         margin-right: 10px;
         margin-left: 10px;
         gap: 10px;
