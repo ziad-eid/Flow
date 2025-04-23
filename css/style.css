@@ -768,13 +768,13 @@ a {
     transition: .5s;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .setting-page {
         margin-right: 10px;
         margin-left: 10px;
         gap: 10px;
     }
-}
+} */
 
 /* end setting , toggle switch*/
 /* start site control */
@@ -995,13 +995,13 @@ a {
 
 /* end manager */
 /* start user */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .profile-page {
         margin-right: 10px;
         margin-left: 10px;
         gap: 10px;
     }
-}
+} */
 
 @media (max-width: 767px) {
     .user {
@@ -1148,13 +1148,13 @@ a {
 
 /* end skills */
 /* start projects */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .projects-page {
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px;
     }
-}
+} */
 
 .project-box .time {
     position: absolute;
@@ -1253,13 +1253,13 @@ a {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .cources-page {
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px;
     }
-}
+} */
 
 .cource-box {
     overflow: hidden;
@@ -1296,13 +1296,13 @@ a {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .friends-page {
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px;
     }
-}
+} */
 
 .friend-box .icons {
     position: absolute;
@@ -1349,13 +1349,13 @@ a {
     align-items: self-start;
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     .files-page {
         flex-direction: column;
         gap: 10px;
         margin-left: 10px;
         margin-right: 10px;
-    }
+    } */
 
     .files-page .files-box {
         gap: 10px;
@@ -1466,14 +1466,14 @@ a {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     .plans-page {
         flex-direction: column;
         gap: 10px;
         margin-left: 10px;
         margin-right: 10px;
     }
-}
+} */
 
 .plans-page .plane .value {
     border: 3px solid #fff;
