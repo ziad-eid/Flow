@@ -1,0 +1,312 @@
+:root{
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+/* start box */
+.d-block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.d-flex {
+    display: flex;
+}
+
+.align-cen {
+    align-items: center;
+}
+
+.just-bet{
+    justify-content: space-between;
+}
+
+.d-grid{
+    display: grid;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+} 
+.f-wrap{
+    flex-wrap: wrap;
+}
+@media (max-width: 767px){
+    .block-mobile{
+        display: block;
+    }
+    .hide-mobile{
+        display: none;
+    }
+}
+/* end box */
+
+
+/* start padding + margine */
+.p-10 {
+    padding: 10px;
+}
+
+.p-15{
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pt-15{
+    padding-top: 20px;
+}
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.m-0{
+    margin: 0;
+}
+.m-15{
+    margin: 15px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-2{
+    margin-bottom: 2px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+/* end padding + margine */
+
+
+/* start color */
+.bg-white {
+    background-color: #fff;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-grey{
+    background-color: var(--grey-color);
+}
+.bg-orange{
+    background-color: var(--orange-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+}
+.bg-black{
+    background-color: #000;
+}
+.bg-red{
+    background-color: var(--red-color);
+}
+.bg-blue-linked-in{
+    background-color: #0077b5;
+}
+.c-blue-linked-in{
+    color: #0077b5;
+}
+.c-black {
+    color: #000;
+}
+.c-grey{
+    color: var(--grey-color);
+}
+.c-white{
+    color: #fff;
+}
+.c-blue{
+    color: var(--blue-color);
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-red{
+    color: red;
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-orange{
+    color: var(--orange-color);
+}
+/* end color */
+
+
+/* start font */
+.txt-c {
+    text-align: center;
+}
+.txt-end{
+    text-align: end;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-40{
+    font-size: 40px;
+}
+
+@media (max-width: 767px){
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+/*  end font */
+
+/* start position */
+.relative {
+    position: relative;
+}
+
+/* end position */
+/* start border*/
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.rad-50{
+    border-radius: 50%;
+}
+.b-none{
+    border: none;
+}
+/* end border */
+/* start width & height */
+.w-full{
+    width: 100%;
+}
+.w-fit{
+    width: fit-content;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-normal{
+    font-weight: normal;
+}
+/* end width & height */
+/* start components */
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-shape{
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+.box-shadow{
+    box-shadow: 0 0 10px #0000001a;
+}
+/* end components */
