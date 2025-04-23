@@ -770,6 +770,7 @@ a {
 
 @media (max-width: 767px) {
     .setting-page {
+        grid-template-columns: minmax(200px, 1fr);
         margin-right: 10px;
         margin-left: 10px;
         gap: 10px;
@@ -997,6 +998,7 @@ a {
 /* start user */
 @media (max-width: 767px) {
     .profile-page {
+        grid-template-columns: minmax(200px, 1fr);
         margin-right: 10px;
         margin-left: 10px;
         gap: 10px;
@@ -1150,6 +1152,7 @@ a {
 /* start projects */
 @media (max-width: 767px) {
     .projects-page {
+        grid-template-columns: minmax(200px, 1fr);
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px;
@@ -1255,6 +1258,7 @@ a {
 
 @media (max-width: 767px) {
     .cources-page {
+        grid-template-columns: minmax(200px, 1fr);
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px;
@@ -1298,6 +1302,7 @@ a {
 
 @media (max-width: 767px) {
     .friends-page {
+        grid-template-columns: minmax(200px, 1fr);
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px;
@@ -1351,6 +1356,7 @@ a {
 
 @media (max-width: 991px) {
     .files-page {
+        grid-template-columns: minmax(200px, 1fr);
         flex-direction: column;
         gap: 10px;
         margin-left: 10px;
@@ -1468,6 +1474,7 @@ a {
 
 @media (max-width: 991px) {
     .plans-page {
+        grid-template-columns: minmax(200px, 1fr);
         flex-direction: column;
         gap: 10px;
         margin-left: 10px;
